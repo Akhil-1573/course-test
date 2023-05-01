@@ -1,22 +1,22 @@
 *{
     box-sizing: border-box;
-  }
+ }
   
-  body{
+body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-  }
-  
-  .row{
+    }
+
+.row{
     width: 100%;
-  }
+    }
   
-  h1{
+h1{
     text-align: center;
     font-size: 250%;
     margin-bottom: 50px;
   }
   
-  p{
+p{
     text-align: center;
     border: 1px solid black;
     font-size: 175%;
@@ -26,42 +26,43 @@
     margin:0;
     top:0;
     padding:0;
-  }
+ }
 
-  .container{
+.container{
    position: relative;
    top:50px;
    margin:10px; 
-  }
+          }
   
-  .title{
+.title{
     position: relative;
     text-align: justify;
     background-color:#9e9c9c;
     margin: 20px 20px 0px 0px;
     padding:0px 0px 5px 5px ;
     border: 2px solid black;
-  }
+      }
   
-  section{
+section{
     font-size: medium;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     clear:right;
-  }
+    padding: 10px;
+       }
   
-  #box-one {
+#box-one {
     background-color: #e8aaaa;
   } 
   
-  #box-two{
+#box-two{
     background-color: #c84d4b;
   }
   
-  #box-three{
+#box-three{
     background-color: #ebd597;
   }
   
-  @media (min-width: 992px){
+@media (min-width: 992px){
     
     .col-lg-4 {
       width: 33.33%;
@@ -70,7 +71,7 @@
   
   }
   
-  @media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
     
     .col-md-6 {
       width: 50%;
@@ -82,7 +83,7 @@
     }
   }
   
-  @media (max-width: 767px){
+@media (max-width: 767px){
 
     .col-sx-12 {
       width: 100%;

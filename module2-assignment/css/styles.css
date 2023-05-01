@@ -12,7 +12,7 @@
     width: 100%;
   }
   
-  .title{
+  .main{
     text-align: center;
     margin-bottom: 30px;
   }
@@ -23,7 +23,7 @@
    margin: 15px; 
   }
   
-  .item{
+  .title{
     position: relative;
     top: 0;
     background-color:#999999;
@@ -32,13 +32,13 @@
     border: 3px solid #000;
   }
   
-  .item p{
+  .title p{
     margin-top: 18px;
     text-align: justify;
     font-size:100%;
   }
   
-  /*.item-title{
+  .list{
     position: absolute;
     top:0;
     right: 0px;
@@ -46,7 +46,7 @@
     padding: 6px 90px;
     border-left: 2px solid #000;
     border-bottom: 2px solid #000;
-  }*/
+  }
   
   #box-one {
     background-color: #D59898;
